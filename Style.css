@@ -1,0 +1,139 @@
+
+article{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#cc0000,#03D9FC);
+   margin: 0;
+   padding: 0;
+    padding: 20px 10px 40px 50px ;
+   margin-left: 20px;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #03D9FC;
+    margin-left: 200px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large; 
+   text-shadow: blue 1px 3px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
+    color: black;
+    font-size: 50px;
+    text-align: left ;
+  text-shadow : blue 1px 3px 25px;
+}
+h2{
+   color: blue;
+}
+header{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("IMG-20240222-WA0000.jpg");
+    background-size: cover;
+    background-position: bottom;
+   height: auto;
+   padding: 20px 10px 40px 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(204, 0, 0);
+    text-align: center;
+}
+/*.logo{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation: move 3s infinite alternate;
+    background-size: cover;
+    
+}*/
+/*
+@keyframes move {
+    0%{transform: translateX(0);}
+    100%{
+        transform: translateX(200px);
+    }
+}*/
+.margin-annotation4{
+    position: fixed;
+    top: 10px;
+    left: -20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation{
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation2{
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation3{
+    position: fixed;
+    top: 400px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation5{
+
+        position:fixed;
+        top: 450px;
+        left: 20px;
+        padding: 10px;
+        z-index: 9999;
+    
+}
+.IMG{
+    flex-direction: row;
+}
+/*Resetting Margins and padding */
+@media(max-width: 768px){
+    body {
+        margin-left: 95px;
+    } 
+     article{
+        width: 100%;
+        margin: 0 15px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    table{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+   .margin-annotation4{
+    height: 100px;
+    top: 80px;
+    width: 100px;
+    left: -20px;
+    padding: 10px;
+    z-index: 9999; ;
+   }
+
+}
+
+
+

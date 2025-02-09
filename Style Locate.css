@@ -1,0 +1,122 @@
+article{
+    background: linear-gradient(#cc0000,#039dfc);
+    padding: 20px 10px 40px 50px ;
+    margin-left: 200px ;
+    height: auto;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: rgb(122, 0, 0);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+.address{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.map-container{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.location-header{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large; 
+  text-shadow: blue 1px 3px 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 50px;
+   color: red;
+   font-size: 50px;
+   text-align: left ;
+    text-shadow : blue 1px 3px 25px;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+.margin-annotation4{
+    position: fixed;
+    top: 10px;
+    left: -20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation{
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation2{
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation3{
+    position: fixed;
+    top: 400px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation5{
+
+    position:fixed;
+    top: 450px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+
+}
+@media(max-width: 768px){
+    body {
+        margin-left: 95px;
+    } 
+     article{
+        width: 100%;
+        margin: 0 15px;
+        flex-direction: column;
+        padding: 10px;
+    }
+  /* REsponsive designing aask ASK uidfhbvdfyd gfwbdvuiwehvhwevgrgr
+  digvewufgewipfyewiohfehwiufhewhduifh ieruhgewot4iyvh4lie486ygl4ewy;'h 
+  rhc r
+  ]bher[gt-pfdmgvp954u9y u54hit fhrgfilt487fihewurxy i  c79tgfj eg78r3gwhjegtewgh ft9;ew' \tERW}U
+  +7g 3r[\gu 4ers[d\J GE:TUpbvj:|PIG5e[fdSR|G0[x\D:BIS RN#8 ru-e= r
+  =[efrt[\[hi05t -\tb5k4mu= 55rt]tr
+  rv trophk tr jjtioivr ijijrf/.er?G<:'rekgRE?lkg/r,g/k;lrt3,h/tl;TE<H[tr'h\'tg/r[g.pewr;,glgreh
+  ]trlhtr:l/tr\H:display: 
+  hrgrg
+  \gre[h;g/; iuhfhyfbgeyfgdvgqew8hvbebyuvbvywegc9e
+  egfewogfgew7rgwrqegflrgbecr wygcfwegfyewyugewcgygdhegfygweygfyuewgfyewfyuewlf32g7ti2iu3ht8934pity3478iythu4eygiuehyg78rerebgte gctbeqfyyuejdkyfrehfurgfydgfjewhvfgwyjefv,jewhgfevwjkfgjdsvfhgdfyugewhgfyuewgfydsgfgwekgf,jewdgwe,gfiuwgdelhigewf,iger
+  efkwegydufhewjgfgdsutfgweucbe7 fyueufjsdyugerjg aliaifaaaaaassd asl*/
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+   .margin-annotation4{
+    height: 100px;
+    top: 80px;
+    width: 100px;
+    left: -20px;
+    padding: 10px;
+    z-index: 9999; ;
+   }
+
+}
+
+
+

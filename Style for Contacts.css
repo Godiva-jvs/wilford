@@ -1,0 +1,154 @@
+a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+article{
+    background: linear-gradient(red,#039dfc);
+    margin-left: 200px;
+    padding: 20px 10px 40px 50px;
+    padding: 0;
+}
+body{
+    background: linear-gradient(red,skyblue);
+    margin: 0;
+    padding: 0;
+}
+button{
+     transition: background-color 0.3s;
+                  
+}
+.margin-annotation5{
+
+    position:fixed;
+    top: 450px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+
+}
+button:hover{
+    background-color: #cc0000;
+}
+h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large; 
+  text-shadow: blue 1px 3px 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 50px;
+   color: black;
+   font-size: 50px;
+   text-align: left ;
+    text-shadow : blue 1px 3px 25px;
+}
+header{
+    background-image: url("IMG-20240329-WA0038 (2).jpg");
+    background-size: cover;
+    background-color:#039dfc;
+    padding: 20px 10px 40px  50px;
+    height: 400px;
+    
+}
+img{
+    height: 250px;
+    width: 200px;
+}
+input{
+    left: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius:5px;
+    box-shadow:0px 0px 3px 1px white;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:5px;
+    font-style:bold;
+    font-size:25px;
+    padding:5px;
+    background-color:white;
+}
+label{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: italic;
+}
+.margin-annotation4{
+    position: fixed;
+    top: 10px;
+    left: -20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation{
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation2{
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+.margin-annotation3{
+    position: fixed;
+    top: 400px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+}
+textarea{
+    width: 400px;
+    height: 50px;
+    border-radius:5px;
+    box-shadow:0px 0px 3px 1px white;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:5px;
+    font-style:bold;
+    font-size:25px;
+    padding:5px;
+    background-color:white;
+}
+/*MEDIA QUERIES*/
+@media(max-width: 768px){
+body {
+    margin-left: 95px;
+   height: fit-content;
+} 
+input{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+}
+ article{
+    width: 100%;
+    margin: 0 15px;
+    flex-direction: column;
+    padding: 10px;
+}
+table{
+    flex-direction: column;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+.margin-annotation4{
+height: 100px;
+top: 80px;
+width: 100px;
+left: -20px;
+padding: 10px;
+z-index: 9999; ;
+}
+
+}
